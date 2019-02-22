@@ -1,0 +1,10 @@
+button {
+  display: none;
+  margin: 0;
+  top: 0;
+}
+
+img:hover + button,
+button:hover {
+  display: inline-block;
+}
